@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+app-root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+app-films {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.card {
+  margin: 1rem;
+  /* border: 1px solid gray; */
+}
+
+.card:hover {
+}
+
+img {
+  margin: 1rem auto;
+  display: block;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}

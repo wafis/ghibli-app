@@ -1,0 +1,12 @@
+mat-card-footer {
+  text-align: right;
+  padding: 0 1rem 1rem 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  padding-top: 1rem;
+}
