@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
 
+First angular project I've built using an external API. Displays Studio Ghibli movies and details including: release year, description,  movie title, rotten tomato's score and director. Plan on adding more functionalities soon. Really just wanted to dive into working in Angular. Need to go through and refactor as well as comment on the code. 
+
+https://sad-payne-c4d121.netlify.com/
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
